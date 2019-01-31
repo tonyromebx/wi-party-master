@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS `myparty`;
+CREATE DATABASE `myparty`;

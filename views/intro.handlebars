@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-5 left-side">
+
+    </div>
+    <div class="col-md-7 map-container">
+
+      <div id="map"></div>
+      <div id="infowindow-content">
+        <span id="place-name" class="title"></span><br>
+        Place ID <span id="place-id"></span><br>
+        <span id="place-address"></span>
+      </div>
+      <div class="controls-around">
+        <span>Enter Address to find a Party near you</span><input id="pac-input" class="controls" type="text" placeholder="Enter Address">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="middle">
+  <div class="container middle-module">
+    <div class="container">
+      <div class="row">
+      <div class="col-md-8 row middle-title">
+        <h2>WHAT ABOUT WI-PARTY </h2><span>/ The organic block party App</span>
+        <p>
+          Wi-Party is brought to you by the Open-Source-Social group in an effort to change the way we PARTY!
+          Simply enter the ZIP code of where you’d like to party and find hundreds of events happening in your area, review the guest list and brows the items being required by each host to see if this is a gathering you’re interested in attending.
+          Joining a party is as easy as clicking the confirm button on the party page, and finding a way to contribute.
+          If you don’t see an event that matches your flavor, host your own event and have others collaborate with you, break social barriers and simply have an amazing time.
+          Don’t wait, sign up now and be a part of this amazing world wide social network.
+        </p>
+      </div>
+      <div class="col-md-4 imgstyle">
+        <img src="../img/blockparty.png" class="img-fluid" alt="Responsive image">
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<script src="/js/googlemaps.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCauOYebxJITJGqbj_nxCGS3gdTP4WWcF4&sensor=false&libraries=places&language=en&callback=initMap"></script>
